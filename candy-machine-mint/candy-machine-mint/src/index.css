@@ -1,0 +1,86 @@
+.mint-container {
+    margin-left: 85%;
+}
+
+.wallet-btn {
+    font-size: 10px;
+    width: 145px;
+}
+
+.bg-btn {
+    background-color: #071226 !important;
+    color: #071226 !important;
+    box-shadow: none !important;
+}
+
+.button-style {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: "superscratchy";
+    src: url('superscratchy-webfont.woff') format("woff");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #071226;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1600px) {
+    .mint-container {
+        display: block;
+        margin-left: 85%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .mint-container {
+        display: block;
+        margin-left: 75%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .mint-container {
+        display: block;
+        margin-left: 70%;
+    }
+    .wallet-btn {
+        font-size: 10px;
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mint-container {
+        display: block;
+        margin-left: 70%;
+    }
+    .wallet-btn {
+        font-size: 10px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .mint-container {
+        display: block;
+        margin-left: 78%;
+    }
+    .wallet-btn {
+        font-size: 10px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mint-container {
+        display: block;
+        margin-left: 75%;
+    }
+    .wallet-btn {
+        font-size: 10px;
+        width: 60px;
+    }
+}
